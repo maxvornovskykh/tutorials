@@ -37,6 +37,7 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         registry.addViewController("/graph.html");
         registry.addViewController("/csrfHome.html");
         registry.addViewController("/homepage.html");
+
     }
 
     @Override
